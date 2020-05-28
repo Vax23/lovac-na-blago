@@ -1,0 +1,143 @@
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('1', 'Boddington', 'Australija', 'Chris', '04-FEB-1987', 'Zlatne zile');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('2', 'Lagunas Norte', 'Peru', 'Peter', '12-JUN-1938', 'Zlatne zile', '');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('3', 'Tau Tona', 'Juzna Afrika', 'Anglo', '24-JAN-1858', 'Zlatne zile', '');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('4', 'Kalgoorlie', 'Australija', 'Cooper', '19-NOV-1883', 'Zlatne zile', '');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('5', 'Vaal River', 'Juzna Afrika', 'Amos', '30-JUL-1957', 'Zlatonosne reke', 'Renosterriver');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('6', 'Veladero', 'Argentina', 'Matias', '27-MAY-1905', 'Zlatne zile', '');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('7', 'Goldstrike', 'USA', 'Gorge', '15-MAY-1888', 'Zlatonosne reke', 'Cole Creek');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('8', 'Yanacocha', 'Peru', 'Carlos', '27-FEB-1993', 'Zlatonosne reke', 'Jurua');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('9', 'Cortez', 'USA', 'John', '14-FEB-1928', 'Zlatne zile', '');
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('10', 'Grasberg', 'Indonezija', 'Angga', '01-AUG-1898', 'Zlatonosne reke', 'Digul');
+--za testiranje trigera
+INSERT INTO OBICNA_NALAZISTA_ZLATA VALUES('', 'Olimpiada', 'Rusija', 'Ivan', '23-MAR-1854', 'Zlatonosne reke', 'Volga');
+
+INSERT INTO POREKLO VALUES ('1', 'Blago nestalih civilizacija','Egipat');
+INSERT INTO POREKLO VALUES ('2', 'Blago nestalih civilizacija', 'Vikinzi');
+INSERT INTO POREKLO VALUES ('3', 'Gusarsko blago', '');
+INSERT INTO POREKLO VALUES ('4', 'Blago vitezova Templara', '');
+INSERT INTO POREKLO VALUES ('5', 'Blago nestalih civilizacija', 'Atlantida');
+INSERT INTO POREKLO VALUES ('6', 'Blago nepoznatog porekla', '');
+INSERT INTO POREKLO VALUES ('7', 'Blago nestalih civilizacija', 'Inke');
+INSERT INTO POREKLO VALUES ('8', 'Blago nestalih civilizacija', 'Maje');
+INSERT INTO POREKLO VALUES ('9', 'Blago nepoznatog porekla', '');
+INSERT INTO POREKLO VALUES ('10', 'Blago nestalih ivilizacija', 'Vikinzi');
+--za testiranje trigera
+INSERT INTO POREKLO VALUES ('', 'Gusarsko blago', '');
+
+
+INSERT INTO LOKACIJA VALUES('1', 'Dolina sunca', 'Afrika', 'Grobnica', '1');
+INSERT INTO LOKACIJA VALUES('2' 'Nilski zaliv' 'Afrika' 'Piramida', '1');
+INSERT INTO LOKACIJA VALUES('3', 'Dunmor', 'Irska', 'Pecina', '2');
+INSERT INTO LOKACIJA VALUES('4', 'Nantaket', 'Severna Amerika', 'Ostrvo','3');
+INSERT INTO LOKACIJA VALUES('5', 'Dover', 'Jerusalim', 'Ukleti zamak', '4');
+INSERT INTO LOKACIJA VALUES('6', 'Manot', 'Jerusalim', 'Pecina', '4');
+INSERT INTO LOKACIJA VALUES('7', 'Herkulovi stubovi', 'Grcka', 'Ostrvo', '5');
+INSERT INTO LOKACIJA VALUES('8', 'Fingal', 'Tibet', 'Pecina', '6');
+INSERT INTO LOKACIJA VALUES('9', 'Kusko', 'Carstvo Inka', 'Grad duhova', '7');
+INSERT INTO LOKACIJA VALUES('10', 'Jolja', 'Carstvo Inka', 'Pecina', '7');
+INSERT INTO LOKACIJA VALUES('11', 'Akator', 'Brazil', 'Grad duhova', '8');
+INSERT INTO LOKACIJA VALUES('12', 'Java', 'Indijski okean', 'Ostrvo', '9');
+INSERT INTO LOKACIJA VALUES('13', 'Gonburg', 'Svedska', 'Grad duhova', '10');
+
+
+INSERT INTO BLAGO VALUES('1', 'Blago faraona Apepia', 'Postoji', '1');
+INSERT INTO BLAGO VALUES('2', 'Flokijevo blago', 'Postoji', '2');
+INSERT INTO BLAGO VALUES('3', 'Blago Crnog Sema', 'Postoji', '3');
+INSERT INTO BLAGO VALUES('4', 'Blago Akatora', 'Postoji', '4');
+INSERT INTO BLAGO VALUES('5', 'Blago sa Olimpa', 'Ne postoji', '5');
+INSERT INTO BLAGO VALUES('6', 'Blago crvenog zmaja', 'Ne postoji', '6');
+INSERT INTO BLAGO VALUES('7', 'Blago Kuska', 'Ne postoji', '7');
+INSERT INTO BLAGO VALUES('8', 'Acresko blago', 'Ne postoji', '8');
+INSERT INTO BLAGO VALUES('9', 'Arheolosko blago', 'Postoji', '9');
+INSERT INTO BLAGO VALUES('10', 'Odinovo blago', 'Postoji', '10');
+
+
+INSERT INTO LOVAC VALUES('Elvis', '10', '15-JAN-1920', '05-AUG-1928');
+INSERT INTO LOVAC VALUES('Rollo', '9', '26-SEP-2011', '13-MAY-2012');
+INSERT INTO LOVAC VALUES('TinTin', '5', '02-DEC-1987', '27-JAN-1991');
+INSERT INTO LOVAC VALUES('Harold', '1', '31-DEC-1998', '16-APR-2002');
+INSERT INTO LOVAC VALUES('Juan', '7', '11-NOV-2018', '');
+INSERT INTO LOVAC VALUES('Yang', '5', '26-AUG-2007', '01-SEP-2010');
+INSERT INTO LOVAC VALUES('Hannah', '3', '20-MAR-2019', '');
+INSERT INTO LOVAC VALUES('Roscoe', '8', '07-FEB-2020', '');
+INSERT INTO LOVAC VALUES('Otis', '2', '09-JUN-2001', '15-SEP-2001');
+INSERT INTO LOVAC VALUES('Callie', '4', '17-OCT-1993', '30-APR-1999');
+INSERT INTO LOVAC VALUES('Van', '6', '22-JUL-1989', '06-MAY-1992');
+INSERT INTO LOVAC VALUES('Prue', '10', '01-APR-2015', '');
+INSERT INTO LOVAC VALUES('Wren', '8', '19-MAR-1995', '30-APR-1998');
+INSERT INTO LOVAC VALUES('Edison', '4', '29-MAY-2000', '');
+INSERT INTO LOVAC VALUES('Piper', '2', '04-DEC-2005', '16-OCT-2009');
+INSERT INTO LOVAC VALUES('Tate', '6', '30-JUN-1998', '');
+INSERT INTO LOVAC VALUES('Fitz', '1', '07-OCT-1973', '31-OCT-1997');
+INSERT INTO LOVAC VALUES('Livi', '3', '19-NOV-1988', '08-MAR-1994');
+INSERT INTO LOVAC VALUES('Yorke', '7', '16-MAY-2017', '');
+INSERT INTO LOVAC VALUES('Oliver', '9', '03-FEB-2020', '');
+INSERT INTO LOVAC VALUES('Nola', '5', '13-AUG-1991', '15-SEP-1997');
+INSERT INTO LOVAC VALUES('Arlo', '10', '26-OCT-2004', '');
+
+
+INSERT INTO PREDMET VALUES('1', 'Alhaya', 'Knjiga', 'Papir', '1');
+INSERT INTO PREDMET VALUES('2', 'Mihosova ostrica', 'Mac', 'Zlato', '1');
+INSERT INTO PREDMET VALUES('3', 'Osvetnik', 'Mac', 'Srebro', '2');
+INSERT INTO PREDMET VALUES('4', 'Njordov krst', 'Krst', 'Srebro', '2');
+INSERT INTO PREDMET VALUES('5', 'Sigridine pesme', 'Knjiga', 'Papir', '2');
+INSERT INTO PREDMET VALUES('6', 'Ostrica Crnog Sema', 'Mac', 'Metal', '3');
+INSERT INTO PREDMET VALUES('7', 'Jerusalimski zlatni krst', 'Krst', 'Zlato', '4');
+INSERT INTO PREDMET VALUES('8', 'Brising', 'Mac', 'Srebro', '4');
+INSERT INTO PREDMET VALUES('9', 'Nasledje Templara', 'Knjiga', 'Papir', '4');
+INSERT INTO PREDMET VALUES('10', 'Nebeski svod', 'Knjiga', 'Papir', '5');
+INSERT INTO PREDMET VALUES('11', 'Grimfrost', 'Mac', 'Dijamant', '6');
+INSERT INTO PREDMET VALUES('12', 'Derecho', 'Lobanja', 'Srebro', '7');
+INSERT INTO PREDMET VALUES('13', 'Izquierda', 'Lobanja', 'Zlato', '7');
+INSERT INTO PREDMET VALUES('14', 'Lobanje bogova Ughata', 'Lobanja', 'Dijamant', '8');
+INSERT INTO PREDMET VALUES('15', 'Darkhold', 'Knjiga', 'Papir', '8');
+INSERT INTO PREDMET VALUES('16', 'Drogon', 'Lobanja', 'Metal', '9');
+INSERT INTO PREDMET VALUES('17', 'Rhaegal', 'Lobanja', 'Metal', '9');
+INSERT INTO PREDMET VALUES('18', 'Nordijski krst', 'Krst', 'Srebro', '10');
+
+
+INSERT INTO LEGENDA VALUES('1', 'Legenda o Apipeu', '1', 'Pre mnogo vekova u drevnom egiptu je ziveo jedan od najmocnijih faraona, faraon Apepi.Za vrema njegove vladavine Egipatsko carstvo je bilo jedno od najjacih. Kada je umro u njegovu cast je izgradjna ogromna grobnica u Dolini sunca. Zajedno sa njim tu se nalazi najvece blago Egipta iz tog vremena.U tom blagu se nalaze razni poznati predmeti kao sto je Alhaya(knjiga zivota) i  Mihosova ostrica.Da bi faraon mogo da pociva u miru a i da bi to blago bilo sigurno od raznih lovaca na blago na ovu grobnicu je bacena strasna kletva pod nazivom Nihayat altariq(kraj puta).Legenda kaze da ko god pokusa da udje u grobnicu, tu ce biti kraj njegovog puta i bice poslat cudovistu Ammut-u koje ce pojesti njihova srca jer time nisu zasluzili zagrobni zivot.');
+INSERT INTO LEGENDA VALUES('2', 'Apipeovo nasledje', '1', 'Apepi je bio jedan od najvecih egipatskih faraona. Kada je on umro sagradjena je ogromna piramida u Nilskom zalivu. Pored njega u toj grobnici se nalaze nekao od najvecih egipatskih blaga kao sto je Alhaya(knjiga zivota) i Mihosova ostrica. Da bi se osiguralo da faraon pociva u miru a i da bi to blago bilo sigurno grobnicu cuva Crvana armija. Legenda kaze da je to armija duhova najboljih egipatskih ratnika. Svako ko se usudi da udje tu grobnicu, da bi doso do velicanstvenog Apepievog blaga mora prvo da se suoci sa Crvenom armijom.');
+INSERT INTO LEGENDA VALUES('3', 'Floki i Viserion', '2', 'Nekada davno u starim Irskim planinskim vencima ziveo je neustrasiv viking po imenu Floki.Pred njim i njegovim zmajem Viserionim drhtala je cela zemlja.Floki je imao mac od cistog srebra koji je unistavao sve pred sobom.Na samrti Floki je zajahao svog zmaja i odleteo u nepoznato. Legenda kaze da su Floki i zmaj sleteli duboko u planini u pecini Dunmor. Floki je umro ali je zmaj i dalje ziv i pazljivo cuva Flokijev mac nazvan Osvetnik, Njordov krst i cuvene Sigridine pesme. Onaj koji skupi dovoljno hrabrosti da izadje i bori se protiv Viseriona i njegove paklene vatre moci ce da osvoji ova cuvena vikinska blaga.');
+INSERT INTO LEGENDA VALUES('4', 'Uidina plovidba', '3', 'Galija Uida je bila brod najbolji brod Engleske mornarice. Jednog dana u blizini moreuza Vindvord presreli su je gusari predvodjeni Crnim Semom Belamijem. Uida je zapala u Semove ruke. Ovim brodom je Crni Sem harao i pljackao morima duz obala Severne Amerike pa sve do Jamajke. Tokom jedne strasne oluje brod se mnogo ostetio i nasukao na obali ostrva Nantaket. Cela posada je poginula tokom te oluje. Pocele su da kruze price da se blago koje se nalazi na Uidi procenjuje na vise stotina miliona dolara. Legenda kaze da osvetnicki duh Crnog Sema i njegove posade cuva svoj brod i blago i da nikom ne dopusta da se ukrca i zapleni njihovo blago.');
+INSERT INTO LEGENDA VALUES('5', 'Acerski Templari', '4', 'Krajem 13. veka u borbi za grad Acre, drugog najvećeg grada tadašnjeg Kraljevstva Jerusalim i uzdizanja Mamlučkog sultanata, Templari su počeli da gube svoju prvobitnu moć stečenu u ovom delu Bliskog Istoka. Prilikom opsade zamka i mnogobrojnih žrtava i sve većih gubitaka na strani Templara bilo je očigledno da će moć nad gradom Acre, kao i njenim plenom steći Mamlučki sultanat. Vodjeni time, nekoliko pripadnika Svetog Templarskog Odreda odlučilo je da posalje jednog viteza u tajnoj sobi templarskog zamka da izvrši poslednji obred i da se obrati svecu Bernardu od Klervoa za čuvanje templarskog blaga koje je mamlučki sultan Al-Ashraf Khalil željno isčekivao da osvoji.Legenda kaze da  su cuveni Jerusalimski zlatni krst, Brising-srebrni mac generala Fossa i knjiga Nasledje Templara sada pod zastitom Bernanda od Klevora i da ce samo pravi templarski naslednici moci da dobiju nazad ovo blago.');
+INSERT INTO LEGENDA VALUES('6', 'Put izdajnika', '4', 'Acre je bio jedan od najvecih gradova Kraljevstva Jerusalima. U tom gradu se nalazio zamak Dover u kojem su bili cuveni vitezovi Templari.Mamluckom sultanu je taj velicanstveni zamak kao i templarsko bloago koje se nalazi u njemu zapalo za oko pa je poveo svoju veliku armiju u pohod na Akre. Templari su bili vidno nadjacani i posle nekog vremena su izgubili bitku.Sultan je osvojio zamak ali blago koje je mnogo zeleo je nestalo. Legenda kaze da je jedan vitez templar napustio svoj polozaj tokio bitke i pobegao. Sa sobom je poneo cuveni Jerusalimski zlatni krst, Brising-srebrni mac generala Fossa i knjigu Nasledje Templara. Templar je time izdao svoju cast i odanost prema odredu templara i na njega i to blago je pala kletva pod nazivom Faintheart. U blizini pecine Manot nestao je je svaki trag o tom blagu. Legenda kaze da samo onaj koji je potpuno odan temperskom odredu i koji je pravi templerski naslednik moci ce da nadje ulaz u pecinu i put do ovog blaga.');
+INSERT INTO LEGENDA VALUES('7', 'Legenda o bogovima', '5', 'Nekada davno, na samom pocetku, bogovi i ljudi su ziveli zajedno.Sve je bilo dobro dok ljudi nisu postali previse pohlepni i zeljni moci koje poseduju bogovi. Uvidevsi da ljudska pohlepa nikad nece nestati, bogovi su se povukli nazad u Olimp.Iako su bogovi otisli ostavili su dosta tragova i blaga za sobom.Postojala je knjiga pod nazivom Nebeski svod koja je sadrzala put do bogova. Legenda kaze da se knjiga nalazi na jednom ostrvu u sred okeana kod Herkulovih stubova i da nju cuva duh po imenu Hasper. Ljudi nikad nisu odustali od svoje zelje za bozanskim mocima i neumorno su trazili ovu knjigu. To je razbesnelo bogove i poslali su do tada nevidjeno nevreme na zemlju nakon kojeg je ostrvo nestalo. Nakon toga mapa do ovog blaga nije postojala. Neki ljudi su i dalje beznadezno plovili morem u nadi da ce jednog dana pronaci ostrvo i Nebeski svod.');
+INSERT INTO LEGENDA VALUES('8', 'Drukovo gnezdo', '6', 'U velikim Tibetanskim visoravnima nalazi se pecina koju cuva crveni Himelajski zmaj.Dugi niz godina zmaj je svojom vatrom palio sve koji su prisli pecini. Jednog dana grupa seljana je uspela da udje u pecinu dok je zmaj bio u dubokom snu. Na sred pecine se nalazio stub na kojem je bio najlepsi mac koji su ikad videli. Mac je bio iskoval od najcistijeg dijamanta. Kada je zmaj osetio da se neko nalazi u pecini i odmah se probudio. Svojom vatrom ih je sve isterao. Saljeni su se brzo vratili u selo i svima su ispricali sta im se dogodilo.Tako je nastala legenda o Grimfrostu-dijamantskom macu koga cuva veliki crveni zmaj po imenu Druk.');
+INSERT INTO LEGENDA VALUES('9', 'Dvoglavi Atahualpa', '7', 'Kusko, cuveni grad Inka je cuvalo dvoglavo cudoviste po imenu Atahualpa.Jednog dana je do tada nevidjena armija napala Kusko i potpuno ga opustosila. General armije je odsekao glavu Atahualpu i u tom trenutku su na zemlji pale dve lobanje. Jedna je bila od cistog zlata a druga od srebra. Te vecri je napravljena velika gozba a lobanje su kao trofej postavljene na sred trpeze. Legenda kaze da su lobanje posedovale auru smrti za svakog gresnog coveka. Te noci zbog kletve cela armija stradala i Kusko je postao grad duhova. Posle toga lobanjama se izgubio svaki trag. Pocele su da kruze razne price neki kazu da je Atahualpov duh luta gradom sa  zlatnom lobanjom zvanom Izquierda i srebrnom lobanjom zvanom Derecho i da samo onaj sa najcistijim srcem moze da dobije vlasnistvo nad ovim neverovatnim blagom Inka.');
+INSERT INTO LEGENDA VALUES('10', 'Atahualpaove lobanje', '7', 'Prestonica carstva Inka je bio Kusko.Mnogobrojna carstva su pokusavala da osvoje ovaj grad ali neuspesno. Grad je bio pod zastitom dvoglavog cudovista pod imenom Atahualpa. Ali jednog dana pred kapijom Kuskoa se pojavila do tad nevidjena armija. Bilo je nemoguce zaustaviti njihovu opsadu. Kada je Atahualpa shvatio da je ova bitka izgubljena i da ce njegov voljeni grad pripadne neprijateljima on se vinuo u nebo i rasprstio. Sa njim nestala je i neprijateljska armija a i svi gradjani ovog divnog grada. Na zemlju su pale dve lobanje, jedna je bila od cistog zlata a druga od srebra. Pocele su da kruze razne price o zlatnoj lobanji zvanoj Izquierda i srebrnoj lobanji Derecho. Legenda kaze da ove lobanje nalaze duboko u pecini Jolja i da imaju neprocenjivu vrednost ali i da njih prati strasna kletva pod nazivom Muerte.Ljudska zelja za bogastvom je veca od bilo kog straha vezanog za kletvu. Mnogi ce zeleti da se docepaju ovog neverovatnog blaga Inka makar ih to kostalo zivota.');
+INSERT INTO LEGENDA VALUES('11', 'Space between spaces', '8', 'Pre 7000 godina, trinaest interdimenzionalna bica sa dijamantskim skeletonom iz prostora izmedju prostora su postali bogovi Ugha plemena i naredili su im da sagrade veliki grad pod imenom Akator.Kada se izgradnja zavrslia bogovi su nestali a za njim su ostali samo njihovi skeletoni i knjiga doziva po imenu Darkhold. Legenda kaze da onaj ko uspe da spoji pravu lobanju sa pravim skeletonom i procita drevne tekstove Darkholda moci ce da dozove prvobitnog boga. Nakon toga bice mu dozvoljeno da udje u prostor izmedju prostora, od samih bogova da nauci sve tajne univerzuma i pridobije bozanske moci. Ali ako nakon toga neko pozeli povratak na zemlju cena toga ce biti potpuni zaborav.');
+INSERT INTO LEGENDA VALUES('13', 'Odinova kazna', '10', 'Negde sredinom srednjeg veka, duboko u Svedskim tajgama postojao je vikingski gradic Gonburg, koji je sadzao statuu Odina. Prilikom invazije neprijateljske sile grad je pretrpeo viliku stetu a svi njegovi stanovnici su brutalno pogubljeni. Nakon tog strasnog cina neprijateljska vojska se vratila u svoju zemlju. Gonburg je postao grad duhova. Nakon toga pocela je da kruzi legenda o neprocenjivom vikingskom blagu koje su neprijateljse skile bezazleno ostavile za sobom. Naime, u hramu se nalazi cuveni Nordijski krst koje je pod zastitom Odina. Legenda kaze da svako ko u sebi nema vikingske krvi a pokusa da udje u hram i prisvoji krst zadesice ga Odinova kletva-izgorece u strasnom krugu vatre koji ce Odin poslati na njih. Kako vikingski narod biva sve vise unistavan od strane neprijateljskih sila,ostaje samo nada da ce ostati bar jedan viking ziv i da ce uz blagoslov Odina moci da povrati ovo cuveno blago svog naroda.');
+INSERT INTO LEGENDA VALUES('12', 'Last expedition', '9', 'Pre mnogo godina ekspedicia arheologa se okupila da istrazi razna ostrva Indijskog okeana. Jednog dana naisli su na ostrvo koje nije bilo na mapi i odlucili su da ga istraze. Zaisli su duboko u ostrvo i nasli dve ogromne metalne  lobanje zmaja. Zaleli su da ih istraze ali nisu uspeli jer je u jednom trenutku iznad njih proleteo zmaj i bacio strasnu vatrenu kuglu na njih. Odmah su pobegli na brod i u svojim dnevnicima zapisali sve o ovom dogadjaju. Posto je to ostrvo bilo neotkriveno oni su odlucili da mu daju naziv Java, zmaja koji je cuvao ostrvo nazvali su Stoorworm a dve zmajske lobanje Drogon i Rhaegal.Legenda kaze da su clanovi ekspedicije pokusali jos jednom da dodju do tih lobanji i da se posle toga izgubio svaki njihov trag. Prica se da ih je Stoorworm svojom vatrom zive zapalio. Sada postoji mapa do tog blaga i samo oni koji su dovoljno hrabri usudice se da dodju do njega.');
+
+
+INSERT INTO ZASTITA VALUES('1', 'Nihayat altariq', 'Kletva');
+INSERT INTO ZASTITA VALUES('2', 'Crvena armija', 'Duh');
+INSERT INTO ZASTITA VALUES('3', 'Viserion', 'Zmaj');
+INSERT INTO ZASTITA VALUES('4', 'Ukleti Belami', 'Duh');
+INSERT INTO ZASTITA VALUES('5', 'Bernard od Klervoa', 'Duh');
+INSERT INTO ZASTITA VALUES('6', 'Fainheart', 'Kletva');
+INSERT INTO ZASTITA VALUES('7', 'Hesper', 'Duh');
+INSERT INTO ZASTITA VALUES('8', 'Druk', 'Zmaj');
+INSERT INTO ZASTITA VALUES('9', 'Atahualpa', 'Duh');
+INSERT INTO ZASTITA VALUES('10', 'Muerte', 'Kletva');
+INSERT INTO ZASTITA VALUES('11', 'Oblivion', 'Kletva');
+INSERT INTO ZASTITA VALUES('12', 'Stoorworm', 'Zmaj');
+INSERT INTO ZASTITA VALUES('13', 'Vatreni krug', 'Kletva');
+--za testiranje trigera
+INSERT INTO ZASTITA VALUES('', 'Dino', 'Zmaj');
+
+
+INSERT INTO DEFINISE VALUES('1', '1', '1');
+INSERT INTO DEFINISE VALUES('2', '2', '2');
+INSERT INTO DEFINISE VALUES('3', '3', '3');
+INSERT INTO DEFINISE VALUES('4', '4', '4');
+INSERT INTO DEFINISE VALUES('5', '5', '5');
+INSERT INTO DEFINISE VALUES('6', '6', '6');
+INSERT INTO DEFINISE VALUES('7', '7', '7');
+INSERT INTO DEFINISE VALUES('8', '8', '8');
+INSERT INTO DEFINISE VALUES('9', '9', '9');
+INSERT INTO DEFINISE VALUES('10', '10', '10');
+INSERT INTO DEFINISE VALUES('11', '11', '11');
+INSERT INTO DEFINISE VALUES('12', '12', '12');
+INSERT INTO DEFINISE VALUES('13', '13', '13');
