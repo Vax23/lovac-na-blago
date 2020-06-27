@@ -37,7 +37,7 @@ namespace DatabaseAccess
             {
                 var cfg = OracleManagedDataClientConfiguration.Oracle10
                     .ConnectionString(c =>
-                    c.Is("DATA SOURCE=gislab-oracle.elfak.ni.ac.rs:1521/SBP_PDB;PERSIST SECURITY INFO=True; USER ID=S16648;Password=cokolada"));
+                    c.Is("DATA SOURCE=gislab-oracle.elfak.ni.ac.rs:1521/SBP_PDB;PERSIST SECURITY INFO=True; USER ID=pass;Password=pass"));
 
                 return Fluently.Configure()
                     .Database(cfg.ShowSql())
