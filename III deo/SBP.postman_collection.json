@@ -1,0 +1,2700 @@
+{
+	"info": {
+		"_postman_id": "1f338f5f-d981-4d4c-beec-16268817e391",
+		"name": "SBP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44361/Zastita/PreuzmiDuhove",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Zastita/PreuzmiDuhove",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"PreuzmiDuhove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/DodajDuha",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"zastitaNaziv\": \"Bell Witch\"\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Zastita/DodajDuha",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"DodajDuha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/PromeniDuha",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"zastitaId\": 182,\r\n    \"zastitaNaziv\": \"Bloody Mary\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Zastita/PromeniDuha",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"PromeniDuha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/IzbrisiDuha/144",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Zastita/IzbrisiDuha/222",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"IzbrisiDuha",
+						"222"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/PreuzmiKletve",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Zastita/PreuzmiKletve",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"PreuzmiKletve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/DodajKletvu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"zastitaNaziv\": \"Proklestvo grobnice\"\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Zastita/DodajKletvu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"DodajKletvu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/PromeniKletvu",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"zastitaId\": 183,\r\n    \"zastitaNaziv\": \"Otzi\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Zastita/PromeniKletvu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"PromeniKletvu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/IzbrisiKletvu/161",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44361/Zastita/IzbrisiKletvu/223",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"IzbrisiKletvu",
+						"223"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/PreuzmiZmajeve",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44361/Zastita/PreuzmiZmajeve",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"PreuzmiZmajeve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/DodajZmaja",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"zastitaNaziv\": \"Brenton\"\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Zastita/DodajZmaja",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"DodajZmaja"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/PromeniZmaja",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"zastitaId\": 184,\r\n    \"zastitaNaziv\": \"Pendragon\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Zastita/PromeniZmaja",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"PromeniZmaja"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Zastita/IzbrisiZmaja/163",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44361/Zastita/IzbrisiZmaja/227",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Zastita",
+						"IzbrisiZmaja",
+						"227"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lovac/PreuzmiLovce",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lovac/PreuzmiLovcaSaBlagom/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lovac",
+						"PreuzmiLovcaSaBlagom",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lovac/PreuzmiSveLovce",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lovac/PreuzmiSveLovce",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lovac",
+						"PreuzmiSveLovce"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lovac/DodajLovca",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lovacIme\": \"Alex\",\r\n    \"lovacPocetakTrazenja\": \"1920-01-15T00:00:00\",\r\n    \"lovacKrajTrazenja\": \"1928-08-05T00:00:00\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lovac/DodajLovcaSaBlagom/182",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lovac",
+						"DodajLovcaSaBlagom",
+						"182"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lovac/PromeniLovca",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lovacId\": 93,\r\n    \"lovacIme\": \"Hunter\",\r\n    \"lovacPocetakTrazenja\": \"1993-10-17T00:00:00\",\r\n    \"lovacKrajTrazenja\": \"1999-04-30T00:00:00\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lovac/PromeniLovca",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lovac",
+						"PromeniLovca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lovac/IzbrisiLovca/91",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lovac/IzbrisiLovca/132",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lovac",
+						"IzbrisiLovca",
+						"132"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiKnjige",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiKnjige",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiKnjige"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiJednuKnjigu/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiKnjiguSaBlagom/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiKnjiguSaBlagom",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/DodajKnjigu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"predmetNaziv\": \"The book of dead\",\n    \"predmetMaterijal\": \"Papir\"\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/DodajKnjiguSaBlagom/183",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"DodajKnjiguSaBlagom",
+						"183"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PromeniKnjigu",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"predmetId\": 121,\r\n    \"predmetNaziv\": \"Way of life\",\r\n    \"predmetMaterijal\": \"Papir\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PromeniKnjigu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PromeniKnjigu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/IzbrisiKnjigu/122",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/IzbrisiKnjigu/142",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"IzbrisiKnjigu",
+						"142"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiKrstove",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiKrstove",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiKrstove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiJedanKrst/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiKrstSaBlagom/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiKrstSaBlagom",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/DodajKrst",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"predmetNaziv\": \"Krst pravde\",\r\n    \"predmetMaterijal\": \"Srebro\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/DodajKrstSaBlagom/184",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"DodajKrstSaBlagom",
+						"184"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PromeniKrst",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"predmetId\": 144,\r\n    \"predmetNaziv\": \"Sveti krst\",\r\n    \"predmetMaterijal\": \"Srebro\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PromeniKrst",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PromeniKrst"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/IzbrisiKrst/124",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/IzbrisiKrst/166",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"IzbrisiKrst",
+						"166"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiLobanje",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiLobanje",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiLobanje"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiJednuLobanju/7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiLobanjuSaBlagom/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiLobanjuSaBlagom",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/DodajLobanju",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"predmetNaziv\": \"Sky\",\r\n    \"predmetMaterijal\": \"Srebro\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/DodajLobanjuSaBlagom/183",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"DodajLobanjuSaBlagom",
+						"183"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PromeniLobanju",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"predmetId\": 81,\r\n    \"predmetNaziv\": \"Lego\",\r\n    \"predmetMaterijal\": \"Srebro\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PromeniLobanju",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PromeniLobanju"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/IzbrisiLobanju/125",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/IzbrisiLobanju/167",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"IzbrisiLobanju",
+						"167"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiMaceve",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiMaceve",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiMaceve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PreuzmiJedanMac/6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PreuzmiMacSaBlagom/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PreuzmiMacSaBlagom",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/DodajMac",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"predmetNaziv\": \"Slicer\",\r\n    \"predmetMaterijal\": \"Zlato\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/DodajMacSaBlagom/182",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"DodajMacSaBlagom",
+						"182"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/PromeniMac",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"predmetId\": 147,\r\n    \"predmetNaziv\": \"Justice\",\r\n    \"predmetMaterijal\": \"Zlato\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Predmet/PromeniMac",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"PromeniMac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Predmet/IzbrisiMac/126",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Predmet/IzbrisiMac/184",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Predmet",
+						"IzbrisiMac",
+						"184"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/PreuzmiBVT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/PreuzmiBVT",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"PreuzmiBVT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/DodajBVT",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/DodajBVT",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"DodajBVT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/IzbrisiBVT/121",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/IzbrisiBVT/182",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"IzbrisiBVT",
+						"182"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/PreuzmiBNP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/PreuzmiBNP",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"PreuzmiBNP"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/DodajBNP",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/DodajBNP",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"DodajBNP"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/IzbrisiBNP/122",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/IzbrisiBNP/184",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"IzbrisiBNP",
+						"184"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/PreuzmiGB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/PreuzmiGB",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"PreuzmiGB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/DodajGB",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/DodajGB",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"DodajGB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/IzbrisiGB/123",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/IzbrisiGB/186",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"IzbrisiGB",
+						"186"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/PreuzmiBNC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/PreuzmiBNC",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"PreuzmiBNC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/DodajBNC",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bncTipCivilizacije\": \"Vikinzi\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/DodajBNC",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"DodajBNC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/PromeniBNC",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bncTipCivilizacije\": \"Inke\",\r\n    \"porekloId\": 145\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/PromeniBNC",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"PromeniBNC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Poreklo/IzbrisiBNC/124",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Poreklo/IzbrisiBNC/188",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Poreklo",
+						"IzbrisiBNC",
+						"188"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiGrobnice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiGrobnicu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiGrobnicu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiGrobnicuSaBlagom/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiGrobnicuSaBlagom/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiGrobnicuSaBlagom",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/DodajGrobnicu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaNaziv\": \"Tutankamonova\",\r\n    \"lokacijaZemlja\": \"Egipat\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/DodajGrobnicuSaBlagom/162",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"DodajGrobnicuSaBlagom",
+						"162"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PromeniGrobnicu",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaId\": 149,\r\n    \"lokacijaNaziv\": \"Giza\",\r\n    \"lokacijaZemlja\": \"Egipat\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PromeniGrobnicu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PromeniGrobnicu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/IzbrisiGrobnicu/141",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/IzbrisiGrobnicu/181",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"IzbrisiGrobnicu",
+						"181"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiGradoveDuhova",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiGradoveDuhova",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiGradoveDuhova"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiGradDuhovaSaBlagom/7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiGradDuhovaSaBlagom/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiGradDuhovaSaBlagom",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/DodajGradDuhova",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaNaziv\": \"Maskat\",\r\n    \"lokacijaZemlja\": \"Oman\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/DodajGradDuhovaSaBlagom/183",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"DodajGradDuhovaSaBlagom",
+						"183"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PromeniGradDuhova",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaId\": 148,\r\n    \"lokacijaNaziv\": \"Dodoma\",\r\n    \"lokacijaZemlja\": \"Tanzanija\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PromeniGradDuhova",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PromeniGradDuhova"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/IzbrisiGradDuhova/142",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/IzbrisiGradDuhova/168",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"IzbrisiGradDuhova",
+						"168"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiPecine",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiPecine",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiPecine"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiPecinuSaBlagom/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiPecinuSaBlagom/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiPecinuSaBlagom",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/DodajPecinu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaNaziv\": \"Resavska\",\r\n    \"lokacijaZemlja\": \"Srbija\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/DodajPecinuSaBlagom/182",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"DodajPecinuSaBlagom",
+						"182"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PromeniPecinu",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaId\": 150,\r\n    \"lokacijaNaziv\": \"Pokhara\",\r\n    \"lokacijaZemlja\": \"Nepal\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PromeniPecinu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PromeniPecinu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/IzbrisiPecinu/143",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/IzbrisiPecinu/183",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"IzbrisiPecinu",
+						"183"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiOstrva",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiOstrva",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiOstrva"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiOstrvoSaBlagom/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiOstrvoSaBlagom/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiOstrvoSaBlagom",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/DodajOstrvo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaNaziv\": \"Sumatra\",\r\n    \"lokacijaZemlja\": \"Indonezija\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/DodajOstrvoSaBlagom/184",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"DodajOstrvoSaBlagom",
+						"184"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PromeniOstrvo",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"lokacijaId\": 151,\r\n    \"lokacijaNaziv\": \"Luzon\",\r\n    \"lokacijaZemlja\": \"Filipini\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PromeniOstrvo",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PromeniOstrvo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/IzbrisiOstrvo/144",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/IzbrisiOstrvo/184",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"IzbrisiOstrvo",
+						"184"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiPiramide",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiPiramide",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiPiramide"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiPiramiduSaBlagom/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiPiramiduSaBlagom/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiPiramiduSaBlagom",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/DodajPiramidu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaNaziv\": \"Meroe\",\r\n    \"lokacijaZemlja\": \"Sudan\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/DodajPiramiduSaBlagom/162",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"DodajPiramiduSaBlagom",
+						"162"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PromeniPiramidu",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaId\": 152,\r\n    \"lokacijaNaziv\": \"Uskeraf\",\r\n    \"lokacijaZemlja\": \"Egipat\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PromeniPiramidu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PromeniPiramidu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/IzbrisiPiramidu/145",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/IzbrisiPiramidu/185",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"IzbrisiPiramidu",
+						"185"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiUkleteZamkove",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiUkleteZamkove",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiUkleteZamkove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PreuzmiUkletiZamakSaBlagom/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PreuzmiUkletiZamakSaBlagom/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PreuzmiUkletiZamakSaBlagom",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/DodajUkletiZamak",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaNaziv\": \"Fagaras\",\r\n    \"lokacijaZemlja\": \"Rumunija\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/DodajUkletiZamakSaBlagom/183",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"DodajUkletiZamakSaBlagom",
+						"183"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/PromeniUkletiZamak",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lokacijaId\": 147,\r\n    \"lokacijaNaziv\": \"Peles\",\r\n    \"lokacijaZemlja\": \"Rumunija\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/PromeniUkletiZamak",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"PromeniUkletiZamak"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Lokacija/IzbrisiUkletiZamak/146",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Lokacija/IzbrisiUkletiZamak/186",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Lokacija",
+						"IzbrisiUkletiZamak",
+						"186"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Blago/PreuzmiBlaga",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Blago/PreuzmiBlagoSaPoreklom/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Blago",
+						"PreuzmiBlagoSaPoreklom",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Blago/PreuzmiSvaBlaga",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Blago/PreuzmiSvaBlaga",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Blago",
+						"PreuzmiSvaBlaga"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Blago/DodajBlago",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blagoNaziv\": \"Blago junaka\",\r\n    \"blagoMapa\": \"Postoji\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Blago/DodajBlagoSaPoreklom/62",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Blago",
+						"DodajBlagoSaPoreklom",
+						"62"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Blago/PromeniBlago",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blagoId\": 162,\r\n    \"blagoNaziv\": \"Legendarno blago\",\r\n    \"blagoMapa\": \"Ne postoji\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Blago/PromeniBlago",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Blago",
+						"PromeniBlago"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Blago/IzbrisiBlago/161",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Blago/IzbrisiBlago/182",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Blago",
+						"IzbrisiBlago",
+						"182"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Legenda/PreuzmiLegende",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Legenda/PreuzmiLegende",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Legenda",
+						"PreuzmiLegende"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Legenda/PreuzmiLegenduSaBlagom/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Legenda/PreuzmiLegenduSaBlagom/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Legenda",
+						"PreuzmiLegenduSaBlagom",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Legenda/DodajLegendu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"legendaNaziv\": \"Vecni mir\",\r\n    \"legendaPrica\": \"Neka prica........\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Legenda/DodajLegenduSaBlagom/162",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Legenda",
+						"DodajLegenduSaBlagom",
+						"162"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Legenda/PromeniLegendu",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"legendaId\": 163,\r\n  \"legendaNaziv\": \"Moc samuraja\",\r\n  \"legendaPrica\": \"Neka prica...\"\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Legenda/PromeniLegendu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Legenda",
+						"PromeniLegendu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Legenda/IzbrisiLegendu/141",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Legenda/IzbrisiLegendu/182",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Legenda",
+						"IzbrisiLegendu",
+						"182"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/PreuzmiZlatneZile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/PreuzmiZlatneZile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"PreuzmiZlatneZile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/DodajZlatnuZilu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"onzIme\": \"Hope Bay\",\r\n    \"onzZemljaNalazenja\": \"Kanada\",\r\n    \"onzImeNalazaca\": \"Rayan\",\r\n    \"onzDatumOtkrivanja\": \"1987-02-04T00:00:00\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/DodajZlatnuZilu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"DodajZlatnuZilu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/PromeniZlatnuZilu",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"onzId\": 123,\r\n    \"onzIme\": \"South Arturo\",\r\n    \"onzZemljaNalazenja\": \"Nevada\",\r\n    \"onzImeNalazaca\": \"Jon\",\r\n    \"onzDatumOtkrivanja\": \"1987-02-04T00:00:00\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/PromeniZlatnuZilu",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"PromeniZlatnuZilu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/IzbrisiZlatnuZilu/121",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/IzbrisiZlatnuZilu/162",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"IzbrisiZlatnuZilu",
+						"162"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/PreuzmiZlatonosneReke",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/PreuzmiZlatonosneReke",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"PreuzmiZlatonosneReke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/DodajZlatonosnuReku",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"onzImeReke\": \"Riya\",\r\n    \"onzId\": 41,\r\n    \"onzIme\": \"Duwayhi\",\r\n    \"onzZemljaNalazenja\": \"Zalim\",\r\n    \"onzImeNalazaca\": \"Ahmet\",\r\n    \"onzDatumOtkrivanja\": \"1985-05-06T00:00:00\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/DodajZlatonosnuReku",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"DodajZlatonosnuReku"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/PromeniZlatonosnuReku",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"onzImeReke\": \"Monrovia\",\r\n    \"onzId\": 125,\r\n    \"onzIme\": \"New Liberty\",\r\n    \"onzZemljaNalazenja\": \"Liberia\",\r\n    \"onzImeNalazaca\": \"Hasan\",\r\n    \"onzDatumOtkrivanja\": \"1985-05-06T00:00:00\"\r\n  }",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/PromeniZlatonosnuReku",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"PromeniZlatonosnuReku"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/ObicnaNalazistaZlata/IzbrisiZlatonosnuReku/122",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/ObicnaNalazistaZlata/IzbrisiZlatonosnuReku/164",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"ObicnaNalazistaZlata",
+						"IzbrisiZlatonosnuReku",
+						"164"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Definise/PreuzmiDefinisanja",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Definise/PreuzmiDefinisanja/2/2/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Definise",
+						"PreuzmiDefinisanja",
+						"2",
+						"2",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Definise/DodajDefinisanje",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Definise/DodajDefinisanje/163/152/221",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Definise",
+						"DodajDefinisanje",
+						"163",
+						"152",
+						"221"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Definise/PromeniDefinisanje",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"definiseId\": 102,\r\n    \"legende\": {\r\n    \"legendaId\": 81\r\n    },\r\n    \"lokacije\": {\r\n    \"lokacijaId\": 152},\r\n    \"zastite\": {\r\n    \"zastitaId\": 221}\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44361/Definise/PromeniDefinisanje",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Definise",
+						"PromeniDefinisanje"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44361/Definise/IzbrisiDefinisanje/81",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44361/Definise/IzbrisiDefinisanje/122",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44361",
+					"path": [
+						"Definise",
+						"IzbrisiDefinisanje",
+						"122"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
