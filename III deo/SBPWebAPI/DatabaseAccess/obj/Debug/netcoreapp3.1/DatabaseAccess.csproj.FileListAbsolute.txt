@@ -1,0 +1,45 @@
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.deps.json
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfo.cs
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Vax\Desktop\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.deps.json
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfo.cs
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Krstici\Desktop\SBP_Projekat\SBP_Web_API\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.deps.json
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfo.cs
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Vax\Desktop\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.deps.json
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfo.cs
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Krstici\Desktop\SBP_Projekat\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.deps.json
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfo.cs
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Vax\Desktop\SBPWebAPI (1)\SBPWebAPI\SBPWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.pdb
